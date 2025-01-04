@@ -1,0 +1,29 @@
+/* 모바일 가독성 개선을 위한 기본 스타일 */
+/* 프로젝트 루트: client/src/index.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  /* 기본 폰트 사이즈를 조금 키움 */
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* 스크롤바 디자인 (선택사항) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
